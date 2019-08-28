@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: cowweb
-        image: registry.hub.docker.com/oraclejp/cowweb:v1.0
+        image: iad.ocir.io/axohmvtoe2m2/handson-001/cowweb:v1.0
         ports:
         - name: api
           containerPort: 8080
